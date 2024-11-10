@@ -1,16 +1,16 @@
 "use client"
 import Link from 'next/link';
 import React from 'react';
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LinkedinShareButton,
-  WhatsappShareButton,
-  FacebookIcon,
-  TwitterIcon,
-  LinkedinIcon,
-  WhatsappIcon
-} from 'react-share';
+// import {
+//   FacebookShareButton,
+//   TwitterShareButton,
+//   LinkedinShareButton,
+//   WhatsappShareButton,
+//   FacebookIcon,
+//   TwitterIcon,
+//   LinkedinIcon,
+//   WhatsappIcon
+// } from 'react-share';
 
 function Footer() {
   const shareUrl = 'https://yourwebsite.com';
@@ -42,7 +42,7 @@ function Footer() {
               </Link>
             </div>
             {/* Social Icons */}
-            <div className="w-full md:w-1/3 flex justify-end space-x-4">
+            {/* <div className="w-full md:w-1/3 flex justify-end space-x-4">
               <FacebookShareButton url={shareUrl} title={title} className="transition-colors duration-300">
                 <FacebookIcon size={32} round />
               </FacebookShareButton>
@@ -55,7 +55,7 @@ function Footer() {
               <WhatsappShareButton url={shareUrl} title={title} className="transition-colors duration-300">
                 <WhatsappIcon size={32} round />
               </WhatsappShareButton>
-            </div>
+            </div> */}
           </div>
           {/* Copyright */}
           <div className="mt-6 text-center text-sm text-yellow-600">
