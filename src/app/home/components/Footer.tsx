@@ -13,8 +13,6 @@ import React from 'react';
 // } from 'react-share';
 
 function Footer() {
-  const shareUrl = 'https://yourwebsite.com';
-  const title = 'Check this out!';
 
   return (
     <div>
