@@ -5,7 +5,7 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <div>
-    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://www.mediafire.com/convkey/5ca5/92xvlb22qvvpoub6g.jpg')" }}>
+    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/photos/IMG-20241110-WA0023.jpg.jpg')" }}>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 space-y-6">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold animate-fadeInDown">Welcome to Your Dream Stay</h1>
         <p className="max-w-lg md:max-w-2xl text-base md:text-lg lg:text-xl animate-fadeInUp">Discover luxury and comfort like never before.</p>
