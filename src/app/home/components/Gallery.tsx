@@ -31,8 +31,8 @@ export default function GallerySection() {
             <Image
               src={item.imgUrl}
               alt={item.title}
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }}
               className="absolute inset-0 z-0"
             />
             <div className="absolute inset-0 bg-black opacity-40 transition-opacity hover:opacity-10"></div>
