@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold animate-fadeInDown">Welcome to Your Dream Stay</h1>
         <p className="max-w-lg md:max-w-2xl text-base md:text-lg lg:text-xl animate-fadeInUp">Discover luxury and comfort like never before.</p>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mt-6">
-          <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 animate-bounce"><Link href={"https://wa.me/1234567890?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link></button>
+          <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 animate-bounce"><Link href={"https://wa.me/03301000444?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link></button>
           <button className="bg-transparent border-2 border-white hover:bg-white hover:text-gray-800 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 animate-bounce">Learn More</button>
         </div>
       </div>

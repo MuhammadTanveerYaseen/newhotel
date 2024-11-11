@@ -33,7 +33,7 @@ function Footer() {
               </Link>
              
               <Link href="#price" className="text-sm hover:font-semibold transition-transform duration-300">
-              <Link href={"https://wa.me/1234567890?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link>
+              <Link href={"https://wa.me/03301000444?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link>
               </Link>
               <Link href="/ContactUs" className="text-sm hover:font-semibold transition-transform duration-300">
                 Contact
