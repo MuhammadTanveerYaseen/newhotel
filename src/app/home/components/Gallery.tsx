@@ -27,7 +27,7 @@ const galleryItems: GalleryItem[] = [
   { id: 15, title: "4", imgUrl: "/Hotel Sarena Palace/IMG-20241106-WA0061.jpg", size: "small" },
   { id: 16, title: "5", imgUrl: "/Hotel Sarena Palace/IMG-20241106-WA0062.jpg", size: "small" },
   { id: 21, title: "1", imgUrl: "/HotelMultanOne/IMG-20241106-WA0095.jpg", size: "small" },
-  { id: 22, title: "2", imgUrl: "/HotelMultanOne/IMG-20241106-WA0097.jpg", size: "medium" },
+  // { id: 22, title: "2", imgUrl: "/HotelMultanOne/IMG-20241106-WA0097.jpg", size: "medium" },
   { id: 23, title: "3", imgUrl: "/HotelMultanOne/IMG-20241106-WA0100.jpg", size: "small" },
   { id: 24, title: "4", imgUrl: "/HotelMultanOne/IMG-20241106-WA0102.jpg", size: "small" },
   { id: 25, title: "5", imgUrl: "/HotelMultanOne/IMG-20241106-WA0103.jpg", size: "small" },

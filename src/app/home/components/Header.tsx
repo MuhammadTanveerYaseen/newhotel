@@ -43,12 +43,12 @@ const Header = () => {
 
           {/* Mobile Menu */}
           {isMobileMenuOpen && (
-            <div className="absolute top-10 right-0 bg-white shadow-lg p-4 rounded-lg w-48">
+            <div className="absolute top-10 right-0 bg-black shadow-lg p-4 rounded-lg w-48">
               <Link href="ContactUs" className="  text-white block px-2 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
                 BOOK NOW
               </Link>
-              <Link href="/" className="  block py-2 hover:bg-gray-100 rounded">Home</Link>
-              <Link href="/ContactUs" className="   block py-2 hover:bg-gray-100 rounded">Contact</Link>
+              <Link href="/" className=" text-white block py-2 hover:bg-gray-100 rounded">Home</Link>
+              <Link href="/ContactUs" className=" text-white  block py-2 hover:bg-gray-100 rounded">Contact</Link>
             </div>
           )}
         </div>
