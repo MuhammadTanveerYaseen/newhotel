@@ -86,16 +86,7 @@ const ContactPage: React.FC = () => {
       </div>
 
       {/* Map Section */}
-      <div className="w-full max-w-5xl mt-12 animate-fadeIn">
-        <iframe
-          src="https://www.google.com/maps/place/Hotel+A-One+Multan/@30.2336537,71.4790641,17z/data=!4m21!1m11!3m10!1s0x393b35b83ca6d011:0xb5673e124dc11d5d!2sHotel+A-One+Multan!5m2!4m1!1i2!8m2!3d30.2336532!4d71.4791438!10e5!16s%2Fg%2F11tg0cz1sd!3m8!1s0x393b35b83ca6d011:0xb5673e124dc11d5d!5m2!4m1!1i2!8m2!3d30.2336532!4d71.4791438!16s%2Fg%2F11tg0cz1sd?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
-          width="100%"
-          height="400"
-          loading="lazy"
-          className="border-0 rounded-lg shadow-lg"
-          allowFullScreen
-        ></iframe>
-      </div>
+
     </div>
   );
 };
