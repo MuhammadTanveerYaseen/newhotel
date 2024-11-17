@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-4 items-center">
-          <Link href="https://wa.me/03218630050?text=I%20want%20to%20book%20the%20Standard%20Room" className="px-4 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
+          <Link href="ContactUs" className="px-4 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
             BOOK NOW
           </Link>
           <Link href="/" className="hover:scale-105  text-white hover:font-semibold transition-transform duration-300">
@@ -44,7 +44,7 @@ const Header = () => {
           {/* Mobile Menu */}
           {isMobileMenuOpen && (
             <div className="absolute top-10 right-0 bg-white shadow-lg p-4 rounded-lg w-48">
-              <Link href="https://wa.me/03218630050?text=I%20want%20to%20book%20the%20Standard%20Room" className="  text-white block px-2 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
+              <Link href="ContactUs" className="  text-white block px-2 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
                 BOOK NOW
               </Link>
               <Link href="/" className="  block py-2 hover:bg-gray-100 rounded">Home</Link>
