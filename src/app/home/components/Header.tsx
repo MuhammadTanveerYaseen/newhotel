@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-4 items-center">
-          <Link href="ContactUs" className="px-4 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-transform duration-300 hover:scale-105">
+          <Link href="ContactUs" className="px-4 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-gray-700 transition-transform duration-300 hover:scale-105">
             BOOK NOW
           </Link>
           <Link href="/" className="hover:scale-105  text-white hover:font-semibold transition-transform duration-300">
