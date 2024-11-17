@@ -49,7 +49,7 @@ export default function HeroWithMap() {
       <div className="relative z-10 flex items-center justify-center">
         <button
           className="flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 hover:shadow-2xl transform hover:scale-105 transition-transform duration-300"
-          onClick={() => window.open("https://maps.google.com", "_blank")}
+          onClick={() => window.open("https://www.google.com/maps/place/Hotel+Serena+Palace+Multan/@30.1925353,71.4540488,17z/data=!3m1!4b1!4m9!3m8!1s0x393b33fc655c6293:0x1255ef3a5d0be2df!5m2!4m1!1i2!8m2!3d30.1925353!4d71.4540488!16s%2Fg%2F11gy633nxn?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D", "_blank")}
         >
           <FaMapMarkerAlt className="mr-2 text-lg" />
           View Location on Google Maps

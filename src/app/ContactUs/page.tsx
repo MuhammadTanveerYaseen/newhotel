@@ -9,7 +9,7 @@ const ContactPage: React.FC = () => {
 
       {/* Hotels Information */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl mb-12">
-        {['Hotel Sunrise', 'Hotel Sunset', 'Hotel Oasis', 'Hotel Riviera'].map((hotel, index) => (
+        {['Hotel Sarena Palace', 'Hotel A One Multan', 'Hotel Multan One', 'MidCity Hotel'].map((hotel, index) => (
           <div
             key={index}
             className="bg-white shadow-lg p-6 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"

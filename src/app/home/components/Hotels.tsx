@@ -7,35 +7,35 @@ const hotels = [
     id: 1,
     name: "Hotel A Multan One",
     description: "Experience luxury by the ocean with stunning views and premium amenities.",
-    imgUrl: "/photos/IMG-20241110-WA0023.jpg",
+    imgUrl: "/HotelAOneMultan/IMG-20240928-WA0007.jpg",
     slug: "AMultan",
   },
   {
     id: 2,
     name: "Hotel Multan One",
-    description: "Find peace in the mountains with cozy rooms and spectacular scenery.",
-    imgUrl: "/photos/IMG-20241110-WA0016.jpg",
+    description: "Find peace in the mountains with cozy rooms and spectacular scenery.  Find peace in the mountains with cozy rooms and spectacular scenery.           ",
+    imgUrl: "/HotelMultanOne/IMG-20241106-WA0102.jpg",
     slug: "HotelMultanOne",
   },
   {
     id: 3,
     name: "Mid City Hotel",
-    description: "Enjoy the vibrant city life with premium rooms and exceptional service.",
-    imgUrl: "/photos/IMG-20241110-WA0002.jpg",
+    description: "Enjoy the vibrant city life with premium rooms and exceptional service .",
+    imgUrl: "/MidCityHotel/IMG-20241106-WA0121.jpg",
     slug: "MidcityHotel",
   },
   {
     id: 4,
     name: "Serena Hotel",
-    description: "Relax in a serene desert escape with luxurious accommodations.",
-    imgUrl: "/photos/IMG-20241110-WA0035.jpg",
+    description: "Relax in a serene desert escape with luxurious accommodations. Experience luxury by the ocean with stunning views and premium",
+    imgUrl: "/Hotel Sarena Palace/IMG-20241106-WA0074.jpg",
     slug: "SerenaHotel",
   },
 ];
 
 export default function OurHotels() {
   return (
-    <section className="py-12 px-6 md:px-10 lg:px-20 bg-gray-100">
+    <section className="py-12 px-6 md:px-10 lg:px-20 bg-gray-100" id="hotels">
       <h2 className="text-4xl font-extrabold mb-12 text-center text-gray-800">Our Hotels</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {hotels.map((hotel) => (
