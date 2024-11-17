@@ -23,7 +23,7 @@ export default function HeroWithMap() {
             Unwind and indulge at our luxury stay, right in the heart of your destination.
           </p>
           <button className="mt-6 px-8 py-4 bg-emerald-600 text-white font-semibold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-200">
-          <Link href={"https://wa.me/03218630050?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link>
+          <Link href={"https://wa.me/+923218630050?text=I%20want%20to%20book%20the%20Standard%20Room"}>Book Now</Link>
           </button>
         </div>
       </div>
