@@ -2,6 +2,34 @@
 import React from 'react';
 
 const ContactPage: React.FC = () => {
+  // Hotel data
+  const hotels = [
+    {
+      name: 'Hotel Multan One',
+      address: 'Near Gulzar Hospital Main Bosan Road Multan',
+      phone: '033001000444',
+      email: 'contact@hotelmultanone.com',
+    },
+    {
+      name: 'Hotel A One',
+      address: 'HBL Street Near Mall of Gulgashat Bosan Road Multan',
+      phone: '03238525552',
+      email: 'contact@hotelaone.com',
+    },
+    {
+      name: 'Hotel Serena Palace',
+      address: 'Opp MCC Ground Nawan Shehr Multan',
+      phone: '03218630050',
+      email: 'contact@hotelserenapalace.com',
+    },
+    {
+      name: 'Hotel New MidCity',
+      address: 'Sial Arcade Sher Shah Road Near Multan Cantt',
+      phone: '03138630050',
+      email: 'contact@hotelnewmidcity.com',
+    },
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       {/* Page Title */}
@@ -9,15 +37,15 @@ const ContactPage: React.FC = () => {
 
       {/* Hotels Information */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl mb-12">
-        {['Hotel Sarena Palace', 'Hotel A One Multan', 'Hotel Multan One', 'MidCity Hotel'].map((hotel, index) => (
+        {hotels.map((hotel, index) => (
           <div
             key={index}
             className="bg-white shadow-lg p-6 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
           >
-            <h2 className="text-2xl font-semibold mb-2">{hotel}</h2>
-            <p className="text-gray-600">Habib Bank Street Bosan Rd near Mall of Gulgasht Multan</p>
-            <p className="text-gray-600">Phone: +923238525552</p>
-            <p className="text-gray-600">Email: contact@{hotel.toLowerCase().replace(' ', '')}.com</p>
+            <h2 className="text-2xl font-semibold mb-2">{hotel.name}</h2>
+            <p className="text-gray-600">{hotel.address}</p>
+            <p className="text-gray-600">Phone: {hotel.phone}</p>
+            <p className="text-gray-600">Email: {hotel.email}</p>
           </div>
         ))}
       </div>
