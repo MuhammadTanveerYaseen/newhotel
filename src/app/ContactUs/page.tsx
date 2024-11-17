@@ -15,8 +15,8 @@ const ContactPage: React.FC = () => {
             className="bg-white shadow-lg p-6 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
           >
             <h2 className="text-2xl font-semibold mb-2">{hotel}</h2>
-            <p className="text-gray-600">123 Example St, City, Country</p>
-            <p className="text-gray-600">Phone: +123 456 7890</p>
+            <p className="text-gray-600">Habib Bank Street Bosan Rd near Mall of Gulgasht Multan</p>
+            <p className="text-gray-600">Phone: +923238525552</p>
             <p className="text-gray-600">Email: contact@{hotel.toLowerCase().replace(' ', '')}.com</p>
           </div>
         ))}
@@ -60,7 +60,7 @@ const ContactPage: React.FC = () => {
       {/* Map Section */}
       <div className="w-full max-w-5xl mt-12 animate-fadeIn">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091856!2d144.95373631560657!3d-37.81627974201111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f4e9c71b%3A0xf0c0f7f1e8e7d5d2!2s123%20Example%20St%2C%20Melbourne%20VIC%203001%2C%20Australia!5e0!3m2!1sen!2sus!4v1628253934541!5m2!1sen!2sus"
+          src="https://www.google.com/maps/place/Hotel+A-One+Multan/@30.2336537,71.4790641,17z/data=!4m21!1m11!3m10!1s0x393b35b83ca6d011:0xb5673e124dc11d5d!2sHotel+A-One+Multan!5m2!4m1!1i2!8m2!3d30.2336532!4d71.4791438!10e5!16s%2Fg%2F11tg0cz1sd!3m8!1s0x393b35b83ca6d011:0xb5673e124dc11d5d!5m2!4m1!1i2!8m2!3d30.2336532!4d71.4791438!16s%2Fg%2F11tg0cz1sd?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
           width="100%"
           height="400"
           loading="lazy"

@@ -5,14 +5,14 @@ import Link from "next/link";
 const hotels = [
   {
     id: 1,
-    name: "Hotel Multan One",
+    name: "Hotel A Multan One",
     description: "Experience luxury by the ocean with stunning views and premium amenities.",
     imgUrl: "/photos/IMG-20241110-WA0023.jpg",
     slug: "AMultan",
   },
   {
     id: 2,
-    name: "Hotel A One",
+    name: "Hotel Multan One",
     description: "Find peace in the mountains with cozy rooms and spectacular scenery.",
     imgUrl: "/photos/IMG-20241110-WA0016.jpg",
     slug: "HotelMultanOne",

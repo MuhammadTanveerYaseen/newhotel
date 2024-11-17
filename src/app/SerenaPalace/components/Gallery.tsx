@@ -1,7 +1,6 @@
-"user client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
-
 interface GalleryItem {
   id: number;
   title: string;
@@ -9,17 +8,18 @@ interface GalleryItem {
   size: "small" | "medium" | "large";
 }
 
+// Define the type for gallery items
+
 const galleryItems: GalleryItem[] = [
-  { id: 1, title: "", imgUrl: "/photos/IMG-20241110-WA0036.jpg", size: "small" },
-  { id: 2, title: "", imgUrl: "/photos/IMG-20241110-WA0025.jpg", size: "large" },
-  { id: 3, title: "", imgUrl: "/photos/IMG-20241110-WA0026.jpg", size: "medium" },
-  { id: 4, title: "", imgUrl: "/photos/IMG-20241110-WA0035.jpg", size: "medium" },
-  { id: 5, title: "", imgUrl: "/photos/IMG-20241110-WA0035.jpg", size: "small" },
+  { id: 1, title: "Jelly-O Brownie Sweet", imgUrl: "/photos/IMG-20241110-WA0035.jpg", size: "small" },
+  { id: 2, title: "Muffin Jelly Gingerbread", imgUrl: "/photos/IMG-20241110-WA0036.jpg", size: "large" },
+  { id: 3, title: "Sesame Snaps Chocolate", imgUrl: "/photos/IMG-20241110-WA0037.jpg", size: "medium" },
+  { id: 4, title: "Toffee Bear Claw", imgUrl: "/photos/IMG-20241110-WA0038.jpg", size: "medium" },
+  { id: 5, title: "Danish Dessert Lollipop", imgUrl: "/photos/IMG-20241110-WA0042.jpg", size: "small" },
   // Add more items as needed
 ];
 
 export default function GallerySection() {
-  // Use TypeScript to specify the state type for selectedImage
   const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null);
 
   const openModal = (item: GalleryItem) => {
@@ -40,7 +40,7 @@ export default function GallerySection() {
             className={`relative overflow-hidden rounded-lg shadow-lg transform transition-transform hover:scale-105 cursor-pointer ${
               item.size === "large" ? "row-span-3" : item.size === "medium" ? "row-span-2" : "row-span-1"
             }`}
-            onClick={() => openModal(item)} // Open modal on image click
+            onClick={() => openModal(item)}
           >
             <Image
               src={item.imgUrl}
@@ -69,14 +69,17 @@ export default function GallerySection() {
             >
               &times;
             </button>
-            <Image
-              src={selectedImage.imgUrl}
-              alt={selectedImage.title}
-              width={800}
-              height={600}
-              style={{ objectFit: "contain" }}
-              className="rounded-lg"
-            />
+            {/* Conditionally render Image only if selectedImage is available */}
+            {selectedImage.imgUrl && (
+              <Image
+                src={selectedImage.imgUrl}
+                alt={selectedImage.title}
+                width={800}
+                height={600}
+                style={{ objectFit: "contain" }}
+                className="rounded-lg"
+              />
+            )}
             <p className="text-center text-white text-xl mt-4">{selectedImage.title}</p>
           </div>
         </div>
