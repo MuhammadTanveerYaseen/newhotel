@@ -42,31 +42,28 @@ const ContactPage: React.FC = () => {
         {hotels.map((hotel, index) => (
           <div
             key={index}
-            className="relative bg-white shadow-xl p-6 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+            className="relative bg-gray-900 text-white shadow-xl p-6 rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl"
           >
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg blur-md opacity-75"></div>
-            <h2 className="text-3xl font-bold text-gray-800 mb-2">
-              {hotel.name}
-            </h2>
-            <p className="text-gray-600 mb-2">
+            <h2 className="text-3xl font-bold mb-2">{hotel.name}</h2>
+            <p className="text-gray-300 mb-2">
               <strong>Address:</strong> {hotel.address}
             </p>
-            <p className="text-gray-600 mb-2">
+            <p className="text-gray-300 mb-2">
               <strong>Phone:</strong>{" "}
               <a
                 href={`https://wa.me/${hotel.phone}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-green-400 hover:underline"
               >
                 {hotel.phone}
               </a>
             </p>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-300 mb-4">
               <strong>Email:</strong>{" "}
               <a
                 href={`mailto:${hotel.email}`}
-                className="text-blue-600 hover:underline"
+                className="text-blue-400 hover:underline"
               >
                 {hotel.email}
               </a>
@@ -84,8 +81,7 @@ const ContactPage: React.FC = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="w-full max-w-3xl mx-auto bg-white p-10 shadow-2xl rounded-lg relative">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-bl from-pink-500 to-purple-500 rounded-lg blur-md opacity-75"></div>
+      <div className="w-full max-w-3xl mx-auto bg-white p-10 shadow-2xl rounded-lg">
         <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">
           Send Us a Message
         </h2>
