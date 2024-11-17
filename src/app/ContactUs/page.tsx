@@ -7,26 +7,26 @@ const ContactPage: React.FC = () => {
     {
       name: "Hotel Multan One",
       address: "Near Gulzar Hospital Main Bosan Road Multan",
-      phone: "033001000444",
-      email: "contact@hotelmultanone.com",
+      phone: "+9233001000444",
+      email: "HotelMultanone@gmail.com",
     },
     {
       name: "Hotel A One",
       address: "HBL Street Near Mall of Gulgashat Bosan Road Multan",
-      phone: "03238525552",
-      email: "contact@hotelaone.com",
+      phone: "+923238525552",
+      email: "Hotelaonepk@gmail.com",
     },
     {
       name: "Hotel Serena Palace",
       address: "Opp MCC Ground Nawan Shehr Multan",
-      phone: "03218630050",
-      email: "contact@hotelserenapalace.com",
+      phone: "+923218630050",
+      email: "HotelSerenapalace@ gmail.com",
     },
     {
       name: "Hotel New MidCity",
       address: "Sial Arcade Sher Shah Road Near Multan Cantt",
-      phone: "03138630050",
-      email: "contact@hotelnewmidcity.com",
+      phone: "+923138630050",
+      email: "Hotelnewmidcitypk@ gmail.com",
     },
   ];
 
