@@ -10,11 +10,11 @@ interface GalleryItem {
 }
 
 const galleryItems: GalleryItem[] = [
-  { id: 1, title: "1", imgUrl: "/HotelMultanOne/IMG-20241106-WA0095.jpg", size: "small" },
+  { id: 1, title: "1", imgUrl: "/HotelMultanOne/IMG-20241106-WA0095.jpg", size: "large" },
   // { id: 2, title: "2", imgUrl: "/HotelMultanOne/IMG-20241106-WA0097.jpg", size: "medium" },
-  { id: 3, title: "3", imgUrl: "/HotelMultanOne/IMG-20241106-WA0100.jpg", size: "small" },
-  { id: 4, title: "4", imgUrl: "/HotelMultanOne/IMG-20241106-WA0102.jpg", size: "small" },
-  { id: 5, title: "5", imgUrl: "/HotelMultanOne/IMG-20241106-WA0103.jpg", size: "small" },
+  { id: 3, title: "3", imgUrl: "/HotelMultanOne/IMG-20241106-WA0100.jpg", size: "medium" },
+  { id: 4, title: "4", imgUrl: "/HotelMultanOne/IMG-20241106-WA0102.jpg", size: "large" },
+  { id: 5, title: "5", imgUrl: "/HotelMultanOne/IMG-20241106-WA0103.jpg", size: "medium" },
   
   
   // Add more items as needed
