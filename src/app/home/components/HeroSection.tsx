@@ -2,6 +2,7 @@
 import Gallery from "./Gallery";
 import OurHotels from "./Hotels";
 import Link from "next/link";
+import ReviewWidget from "./Review";
 export const HeroSection = () => {
   return (
     <div>
@@ -19,6 +20,11 @@ export const HeroSection = () => {
     </section>
     <section>
      <OurHotels></OurHotels>
+    </section>
+    <section>
+    
+     <ReviewWidget></ReviewWidget>
+    
     </section>
     </div>
   
