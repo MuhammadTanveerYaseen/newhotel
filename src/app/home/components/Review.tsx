@@ -13,7 +13,7 @@ interface Review {
 const reviewsData: Review[] = [
   {
     id: 1,
-    name: "Alice Johnson",
+    name: "Usman",
     review: "The hotel had amazing amenities and a beautiful view!",
     rating: 5,
     color: "bg-blue-500",
@@ -22,7 +22,7 @@ const reviewsData: Review[] = [
   },
   {
     id: 2,
-    name: "Bob Carter",
+    name: "Babar",
     review: "The room was clean, and the staff was very welcoming.",
     rating: 4,
     color: "bg-red-500",
@@ -31,7 +31,7 @@ const reviewsData: Review[] = [
   },
   {
     id: 3,
-    name: "Charlie Davis",
+    name: "Ahmmad Ali",
     review: "Exceptional service, great location, and delicious food!",
     rating: 5,
     color: "bg-green-500",
@@ -40,7 +40,7 @@ const reviewsData: Review[] = [
   },
   {
     id: 4,
-    name: "Diana Williams",
+    name: "Naseem",
     review: "The best hotel experience I've had in years.",
     rating: 5,
     color: "bg-purple-500",
